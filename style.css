@@ -1,0 +1,109 @@
+.logo {
+    width: 30rem;
+    max-width: 70%;
+    min-width: 40%;
+    margin-top: -10rem;
+    margin-bottom: 0.5rem;
+}
+
+.spin {
+    stroke-dashoffset: 10000;
+}
+
+
+.name {
+    fill: rgba(255,255,255,0);
+}
+
+.comingsoon {
+    fill: rgba(255,255,255,0);
+    font-family:'IBM Plex Sans';
+    font-weight:400;
+    font-size:200px;
+    font-style:normal;
+    color:rgba(255,255,255,0);
+    margin: 0;
+    padding: 0;
+}
+
+.subtitles {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-top: 2rem;
+    font-style: italic;
+}
+
+@media screen and (min-width: 340px){
+    .subtitles {
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .name {
+        font-size: 4rem;
+    }
+    .comingsoon {
+        font-size: 4rem;
+    }
+
+    .subtitles {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .name {
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+    .comingsoon {
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+
+    .subtitles {
+        font-size: 3rem;
+        margin-top: 3rem;
+    }
+
+    .logo {
+        width: 15rem;
+    }
+}
+
+@media screen and (min-width: 1216px){
+    .name {
+        line-height: 3.5rem;
+        font-size: 6.5rem;
+    }
+    .comingsoon {
+        line-height: 3.5rem;
+        font-size: 6.5rem;
+    }
+
+    .subtitles {
+        font-size: 4em;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (min-width: 1408px){
+    .name {
+        line-height: 6rem;
+        margin-top: 0;
+        font-size: 4.5rem;
+    }
+    .comingsoon {
+        line-height: 6rem;
+        margin-top: 0;
+        font-size: 4.5rem;
+    }
+
+    .subtitles {
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+
+}
